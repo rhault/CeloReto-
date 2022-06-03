@@ -1,15 +1,32 @@
-# Basic Sample Hardhat Project
+# Proyecto Integrando CELO como Tecnología
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+Construcyendo nuevas soluciones y dar nuestros primeros pasos en el ecosistema de CELO.
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+## Ejemplo
+
+Un "Hello World" en Solidity:
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.6.0 <0.9.0;
+
+contract HelloWorld {
+    function helloWorld() external pure returns (string memory) {
+        return "Hello, World!";
+    }
+}
 ```
+
+## Documentación
+
+La documentación de Solidity está alojada en [Leer los documentos](https://docs.soliditylang.org).
+
+## Desarrolladores
+
+* [@jessieavalos](https://github.com/jessieavalos)
+* [@jaleco8](https://github.com/jaleco8)
+* [@rhault](https://github.com/rhault)
+
+## CELO Dev Program
+CELO & Team Platzi
